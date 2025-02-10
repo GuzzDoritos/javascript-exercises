@@ -9,6 +9,14 @@ const removeFromArray = function(array, ...args) {
         filteredArray.push(array[i])
     };
     return filteredArray;
+
+    // array.forEach((item) => {
+    //     if (!args.includes(item)) {
+    //         filteredArray.push(item);
+    //     }
+    // })
+
+    // return array.filter((val) => !args.includes(val));
 };
 
 // Do not edit below this line
